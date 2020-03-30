@@ -1,6 +1,7 @@
 'use strict';
 
 const methods = iface => {
+  console.log(iface);
   // Introspect all properties of iface object and
   // extract function names and number of arguments
   // For example: {
@@ -17,5 +18,7 @@ const methods = iface => {
   //   ['m3', 3]
   // ]
 };
+
+console.log(methods);
 
 module.exports = { methods };
